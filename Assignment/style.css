@@ -1,0 +1,105 @@
+input {
+    padding: 15px 65px;
+    border: none;
+    border-bottom:3px dashed darkred;
+    background: transparent; 
+    /* border-bottom-right-radius: 2%;
+    border-bottom-left-radius: -2%; */
+    border-radius: 2%;
+
+}
+
+section {
+    margin: 150px 600px;
+    padding: 150px; 
+    background-image: center;
+    border-radius: 3%;
+    box-shadow: rgba(0, 0, 0, 0.20) 10px 10px 10px;
+    background-size: cover;
+    font-family: 'Gochi Hand', cursive;
+    height: 300px;
+    width: 300px;
+} 
+
+
+button {
+    border-radius: 10%; 
+    box-shadow: black;
+    margin: 0 20px;
+    padding: 15px;
+    font-family: 'Gochi Hand', cursive;
+    font-size: 16px;
+    text-align: center;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+body {
+    display: flex;
+    align-items: center;
+   
+}
+
+h1 {
+    font-size: 40px; 
+    font-weight: bold;
+   
+}
+
+ img {
+
+    width: 50px;
+
+}
+
+mark {
+    background-color: #e8967a;
+    padding: 2px 20px;
+    border-radius: 15%;
+  
+}
+
+.background {
+    background: #e8967a;
+}
+
+
+.logo {
+   display: flex; 
+   flex-direction: row;
+    /* justify-content: center; */
+    align-items: center; 
+    /* margin-left: 90px;  */
+    margin-top: -135px;
+}
+
+.top {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;  
+
+}
+
+.clipboard {
+    width: 75px;
+    height: 75px;
+}
+
+.to-do-header {
+    transform: rotate(2deg);
+   
+    
+}
+/*border box, border radius, rotate it too*/
