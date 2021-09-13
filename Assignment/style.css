@@ -1,12 +1,11 @@
+
+/* GLOBAL SELECTORS */
 input {
     padding: 15px 65px;
     border: none;
     border-bottom:3px dashed darkred;
     background: transparent; 
-    /* border-bottom-right-radius: 2%;
-    border-bottom-left-radius: -2%; */
     border-radius: 2%;
-
 }
 
 section {
@@ -21,10 +20,10 @@ section {
     width: 300px;
 } 
 
-
 button {
     border-radius: 10%; 
-    box-shadow: black;
+    border: none;
+    box-shadow:0px 2px 0px #A9A9A9;
     margin: 0 20px;
     padding: 15px;
     font-family: 'Gochi Hand', cursive;
@@ -46,33 +45,27 @@ body {
 h1 {
     font-size: 40px; 
     font-weight: bold;
-   
 }
 
- img {
-
+img {
     width: 50px;
-
 }
 
 mark {
     background-color: #e8967a;
     padding: 2px 20px;
     border-radius: 15%;
-  
 }
 
+/* CLASSES */
 .background {
     background: #e8967a;
 }
 
-
 .logo {
    display: flex; 
    flex-direction: row;
-    /* justify-content: center; */
     align-items: center; 
-    /* margin-left: 90px;  */
     margin-top: -135px;
 }
 
@@ -80,8 +73,6 @@ mark {
     display: flex; 
     justify-content: center;
     align-items: center;
-   
-
 }
 
 .bottom {
@@ -89,7 +80,6 @@ mark {
     flex-direction: row;
     justify-content: center;
     align-items: center;  
-
 }
 
 .clipboard {
@@ -98,8 +88,25 @@ mark {
 }
 
 .to-do-header {
-    transform: rotate(2deg);
-   
-    
+    transform: rotate(2deg);  
 }
+
+
+/* Responsive layout */
+@media (max-width: 1600px) {
+    body {
+      flex-direction: column;
+    }
+  }
+
+  @media (max-height: 1600px) {
+    body {
+      flex-direction: column;
+    }
+  } 
+
+
+  
+
+
 /*border box, border radius, rotate it too*/
