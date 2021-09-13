@@ -9,11 +9,11 @@ input {
 }
 
 section {
-    margin: 150px 600px;
+    margin: 120px 100px;
     padding: 150px; 
     background-image: center;
     border-radius: 3%;
-    box-shadow: rgba(0, 0, 0, 0.20) 10px 10px 10px;
+    box-shadow: rgba(0, 0, 0, 0.20) 7px 7px 7px;
     background-size: cover;
     font-family: 'Gochi Hand', cursive;
     height: 300px;
@@ -60,6 +60,7 @@ mark {
 /* CLASSES */
 .background {
     background: #e8967a;
+    margin: 0;
 }
 
 .logo {
