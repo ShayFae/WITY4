@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet"> 
-    <title>To do list</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet"> 
+    <script defer src="list.js"></script>
+<title>To do list</title>
 </head>
 <body class="background">
-    <section class="box" style="background-image: url(background/background.jpeg)";>
+    <section class="box" id="container";>
         <div class="logo">
             <img src="../Assignment/logo/notes.png" class="clipboard" alt="Clipboard logo"/>
         <h1 class="to-do-header"><mark>To-Do List</mark></h1>
@@ -20,11 +21,29 @@
         <div class="top">
             <h2>~ Today I need to ~</h2>
         </div>
-        <div class="bottom">
-            <input type="submitt"> 
-            <button type="submit"><strong>Submit</strong></button>
+    <form >
+        <div class="bottom" >
+            <input type="text" id="input" required> 
+            <button type="button" onclick="makeList()"><strong>Submit</strong></button>  
+            <!-- <button type="button">Delete</button>  -->
         </div>
+    <section>
+         <div id="test">
+                 <!-- <p class="p" id="note"></p> -->
+            </div> 
     </section>
+       
+    </form>
+    </section>
+
     
 </body>
-</html>
+</html> 
+
+<!-- <form class="form">
+    <div class="bottom">
+        <label>~ Today I need to ~<label>
+        <input type="submitt" required id="todo"> 
+        <button type="submit"><strong>Submit</strong></button>
+    </div>
+</form> -->
