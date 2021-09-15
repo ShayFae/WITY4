@@ -8,35 +8,6 @@ input {
     background: transparent; 
     border-radius: 2%;
 }
-/* 
-section {
-    margin: 120px 100px;
-    padding: 150px; 
-    background-image: url(./background/background.jpeg);
-    border-radius: 3%;
-    box-shadow: rgba(0, 0, 0, 0.20) 7px 7px 7px;
-    background-size: cover;
-    font-family: 'Gochi Hand', cursive;
-    height: 300px;
-    width: 300px;
-    overflow: auto;
-}  */
-
-button {
-    border-radius: 10%; 
-    border: none;
-    box-shadow:0px 2px 0px #A9A9A9;
-    margin: 0 20px;
-    padding: 15px;
-    font-family: 'Gochi Hand', cursive;
-    font-size: 16px;
-    text-align: center;
-}
-
-button:hover {
-    background-color: black;
-    color: white;
-}
 
 body {
     display: flex;
@@ -48,9 +19,10 @@ h1 {
     font-size: 40px; 
     font-weight: bold;
 }
+
 p {
  font-size: 20px;
-   
+ margin: 0;
 }
 
 img {
@@ -62,6 +34,8 @@ mark {
     padding: 2px 20px;
     border-radius: 15%;
 }
+
+/* ID'S */
 
 #container {
     margin: 120px 100px;
@@ -76,12 +50,13 @@ mark {
     overflow: auto;
 }
 
+/* CLASSES */
+
 .form {
     display: block;
     margin: 10px;
 }
 
-/* CLASSES */
 .background {
     background: #e8967a;
     margin: 0;
@@ -113,6 +88,37 @@ mark {
     transform: rotate(2deg);  
 }
 
+.button {
+    border-radius: 10%; 
+    border: none;
+    box-shadow:0px 2px 0px #A9A9A9;
+    margin: 0 20px;
+    padding: 15px;
+    font-family: 'Gochi Hand', cursive;
+    font-size: 16px;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+}
+
+#btn {
+    border-radius: 10%; 
+    border: none;
+    box-shadow:0px 2px 0px #A9A9A9;
+    margin: 0;
+    padding: 15px;
+    font-family: 'Gochi Hand', cursive;
+    font-size: 16px;
+    text-align: center;
+}
+
+#btn:hover {
+    background-color: black;
+    color: white;
+}
 
 /* Responsive layout */
 @media (max-width: 1600px) {
@@ -126,9 +132,3 @@ mark {
       flex-direction: column;
     }
   } 
-
-
-  
-
-
-/*border box, border radius, rotate it too*/
