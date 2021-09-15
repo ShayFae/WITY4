@@ -1,13 +1,4 @@
-
 /* GLOBAL SELECTORS */
-
-input {
-    padding: 15px 65px;
-    border: none;
-    border-bottom:3px dashed darkred;
-    background: transparent; 
-    border-radius: 2%;
-}
 
 body {
     display: flex;
@@ -21,8 +12,16 @@ h1 {
 }
 
 p {
- font-size: 20px;
- margin: 0;
+    font-size: 20px;
+    margin: 0;
+   }
+
+input {
+    padding: 15px 65px;
+    border: none;
+    border-bottom:3px dashed darkred;
+    background: transparent; 
+    border-radius: 2%;
 }
 
 img {
@@ -50,6 +49,22 @@ mark {
     overflow: auto;
 }
 
+#btn {
+    border-radius: 10%; 
+    border: none;
+    box-shadow:0px 2px 0px #A9A9A9;
+    margin: 0;
+    padding: 15px;
+    font-family: 'Gochi Hand', cursive;
+    font-size: 16px;
+    text-align: center;
+}
+
+#btn:hover {
+    background-color: black;
+    color: white;
+}
+
 /* CLASSES */
 
 .form {
@@ -68,6 +83,16 @@ mark {
     margin-top: -135px;
 }
 
+.clipboard {
+    width: 75px;
+    height: 75px;
+}
+
+.to-do-header {
+    transform: rotate(2deg);  
+}
+
+
 .top {
     display: flex; 
     justify-content: center;
@@ -77,15 +102,6 @@ mark {
     display: flex;
     justify-content: center;
     align-items: center;  
-}
-
-.clipboard {
-    width: 75px;
-    height: 75px;
-}
-
-.to-do-header {
-    transform: rotate(2deg);  
 }
 
 .button {
@@ -100,22 +116,6 @@ mark {
 }
 
 .button:hover {
-    background-color: black;
-    color: white;
-}
-
-#btn {
-    border-radius: 10%; 
-    border: none;
-    box-shadow:0px 2px 0px #A9A9A9;
-    margin: 0;
-    padding: 15px;
-    font-family: 'Gochi Hand', cursive;
-    font-size: 16px;
-    text-align: center;
-}
-
-#btn:hover {
     background-color: black;
     color: white;
 }
