@@ -20,12 +20,15 @@ function makeList() {
 console.log(input.value); 
 
 
-// Deletes the last child only so you have to delete both the linebreak and the p for one line to go away(PRESS THE BUTTON TWICE DUMMY).
+// Deletes the last child only so I decided to use the method twice.
+// on click it removes two lastchild elements so that allows for the linebreak and p element to be deleted at the same time, instead of having to click twice.
 function deletes() {
     const go = document.getElementById("func");
     go.removeChild(func.lastChild);
+    go.removeChild(func.lastChild);
   };
 
+ 
   
 
   
